@@ -12,7 +12,7 @@ export default function Auth() {
     <main className="min-h-screen flex justify-center mt-[108px] lg:mt-[120px] lg:pt-0 px-3 md:px-0">
       <div className="h-full w-full md:w-[320px] flex flex-col gap-8 border border-gray-300 rounded-md p-3 md:p-5">
           <p className="text-gray-700">Whether you are a new or an existing user, sign in to continue to your account</p>
-          <form
+          {/* <form
           action={async () => {
             await signIn("google")
           }}
@@ -47,7 +47,7 @@ export default function Auth() {
               <FaSquareFacebook className="text-3xl"/>
               <span className="text-gray-700">Facebook</span> 
             </button>
-          </form>
+          </form> */}
       </div>
     </main>
   )
